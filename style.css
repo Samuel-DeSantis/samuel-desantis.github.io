@@ -1,0 +1,174 @@
+html { scroll-behavior: smooth; }
+body { background-color: #061f2c; }
+body::-webkit-scrollbar { width: 8px; }
+body::-webkit-scrollbar-track { background: #061f2c; }
+
+body::-webkit-scrollbar-thumb {
+  background: #9ac7bc;
+  border-radius: 1em;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #07fad1;
+  border-radius: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #9ac7bc;
+}
+
+a:hover {
+  color: #07fad1;
+  font-weight: bold;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #061f2c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-top {
+  margin-left: 2.5em;
+  margin-right: 2em;
+  color: #9ac7bc;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: right;
+}
+
+#climbs-img {
+  width: 500px;
+  height: 500px;
+  margin: 2.5em;
+}
+
+#msg-img {
+  width: 750px;
+  height: 500px;
+  margin: 2.5em;
+}
+
+.img-wrapper {
+  text-align: center;
+}
+
+button {
+  margin: 0.5em;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #69857e;
+}
+
+button:hover {
+  background: #07fad1;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section {
+  margin-top: 12em;
+  margin-left: 6em;
+  margin-right: 6em;
+  padding-bottom: 60vh;
+  color: #9ac7bc;
+  vertical-align: middle;
+  max-width: 1000px;
+}
+
+.section-heading {
+  font-size: 3.5em;
+  color: #deeed9;
+}
+
+p {
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 25px;
+}
+
+.intro {
+  color: #07fad1;
+}
+
+.about {
+  color: #9ac7bc;
+}
+
+.link-internal {
+  margin: 2em;
+}
+
+.link-internal:hover {
+  color: #07fad1;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.link-external {
+  color: #07fad1;
+  text-decoration: underline;
+}
+
+.icon-github {
+  width: 98px;
+  height: 96px;
+  scale: 0.5;
+  fill: #9ac7bc;
+}
+
+.icon-github:hover {
+  fill: #07fad1;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2em;
+}
+
+.project-link {
+  fill: #07fad1;
+}
+
+.project-list {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.icon-email {
+  width: 24px;
+  height: 26px;
+  scale: 2;
+}
+
+.icon {
+  color: #9ac7bc;
+  margin: 1em;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #061f2c;
+  position: fixed;
+  padding: 1em;
+  right: 15px;;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  color: #69857e;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small
+}

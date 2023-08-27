@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <ol class='navbar-top'>
+        <a href="#top">
+          <li class='link-internal'>Home</li> 
+        </a>
+        <a href="#about">
+          <li class='link-internal'>About</li> 
+        </a>
+        <a href="#projects">
+          <li class='link-internal'>Projects</li>
+        </a>
+      </ol>
+    </nav>
+    <main>
+      <div id='home'></div>
+      <section class='block'>
+        <p class='intro'>Hi, my name is</p>
+        <h1 class="section-heading">Samuel DeSantis</h1>
+        <p class='about'>Software Engineer looking for Frontend Development positions and career opportunities. I have a Bachelor's Degree in Electrical & Computer Engineering from <a href='https://ysu.edu/' class='link-external' rel='noopener noreferrer' target='_blank'>Youngstown State University</a> as well as a Full Stack Software Engineering Certificate from <a href='https://flatironschool.com/' class='link-external' rel='noopener noreferrer' target='_blank'>Flatiron School</a> Coding Boot Camp. I have experience programming in JavaScript, Ruby, Python,C/C++, and have worked with ReactJS, NextJS, Ruby on Rails, and Django.</p>
+      </section>
+      <div id='about'></div>
+      <section class='block'>
+        <h3 class='section-heading'>About Me</h3>
+        <p>I have been working as an engineer for four years this September and I am looking to make a career change from Electrical Engineering to Software Engineering.<br/><br/>
+        My undergraduate studies and interests have always lied with programming, whether it be for hardware or software solutions. My bachelors in Electrical and Computer Engineering gives me experience working with low level languages and taking into account hardware restraints and my software programming experience and Flatiron Certificate give me a the skills necessary to thrive in the Software Engineering Industry.</p>
+      </section>
+      <div id="projects"></div>
+      <section class="block">
+        <h3 class="section-heading">Projects</h3>
+        <div>
+          <h2><a class="project-link" href="https://github.com/Samuel-DeSantis/js-portfolio-project" rel="noopener noreferrer" target="_blank">Climbing Logger // GitHub</a></h2>
+          <p>Built with vanilla JavaScript and Bootstrap frontend and Ruby on Rails API backend for recording rock climbing information. The goal was to create a quick and easy application to log climbing achievements and track progression for a hobby I really enjoy.</p>
+          <ol class="project-list">
+            <li>Add a climb</li>
+            <li>Enter climb information</li>
+            <li>View all logged climbs</li>
+
+          </ol>
+          <div class="img-wrapper">
+            <img id="climbs-img" src="./public/images/climbs/Climbs1.png">
+          </div>
+          <div class="button-wrapper">
+            <button onclick="FirstClimb()"></button>
+            <button onclick="SecondClimb()"></button>
+            <button onclick="ThirdClimb()"></button>
+          </div>
+          <br/>
+          <h2><a class="project-link" href="https://github.com/Samuel-DeSantis/message-board-throwback" rel="noopener noreferrer" target="_blank">Message Board // GitHub</a></h2>
+          <p>Built with ReactJS frontend and Ruby on Rails backend. The goal was to create an old-school chatroom style application where friends can join and chat online. A user can create an account and log back in or can join anonymously and chat in real-time.</p>
+          <div class="img-wrapper">
+            <img id="msg-img" src="./public/images/msg-board/MsgBoard1.png">
+          </div>
+          <div class="button-wrapper">
+            <button onclick="FirstMsgBoard()"></button>
+            <button onclick="SecondMsgBoard()"></button>
+            <button onclick="ThirdMsgBoard()"></button>
+          </div> 
+        </div>
+      </section>
+    </main>
+    <footer>Samuel DeSantis Portfolio Page 2023</footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
