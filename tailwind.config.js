@@ -1,15 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
-        'licorice': '#0D0106',
-        'charcoal': '#1f293a',
-        'cloudy-day': '#FBFBFF',
+        'cream': '#F4EFDB',
+        'night': '#242A33'      // Darkest
       }
     },
   },
   plugins: [],
 }
-
