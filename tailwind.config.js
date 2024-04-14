@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'cream': '#F4EFDB',
-        'night': '#242A33'      // Darkest
+        'snow': '#FFFAFB', //Lightest
+        'tiffany_blue': '#7DE2D1',
+        'persian_green' :'#339989',
+        'jet': '#2B2C28',
+        'night': '#131515' //Darkest
       }
     },
   },
