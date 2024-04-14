@@ -8,12 +8,12 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 
 export const aboutConst = [
-  <FaReact className='size-20 hover:text-tiffany_blue' />,
-  <RiJavascriptFill className='size-20 hover:text-tiffany_blue' />,
-  <TiHtml5 className='size-20 hover:text-tiffany_blue' />,
-  <FaCss3Alt className='size-20 hover:text-tiffany_blue' />,
-  <SiDjango className='size-20 hover:text-tiffany_blue' />,
-  <FaPython className='size-20 hover:text-tiffany_blue' />,
-  <SiRubyonrails className='size-20 hover:text-tiffany_blue' />,
-  <SiFirebase className='size-20 hover:text-tiffany_blue' />,
+  <FaReact className='size-20 hover:text-persian_green' />,
+  <RiJavascriptFill className='size-20 hover:text-persian_green' />,
+  <TiHtml5 className='size-20 hover:text-persian_green' />,
+  <FaCss3Alt className='size-20 hover:text-persian_green' />,
+  <SiDjango className='size-20 hover:text-persian_green' />,
+  <FaPython className='size-20 hover:text-persian_green' />,
+  <SiRubyonrails className='size-20 hover:text-persian_green' />,
+  <SiFirebase className='size-20 hover:text-persian_green' />,
 ]
